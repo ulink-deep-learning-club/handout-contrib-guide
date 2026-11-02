@@ -1,4 +1,4 @@
-# 贡献指南
+# 讲义贡献指南
 
 面向第一次参与 Ulink 深度学习社讲义项目（[ulink-deeplearningclub-handouts](https://github.com/ulink-deep-learning-club/ulink-deeplearningclub-handouts)）的零基础贡献指南。涵盖 GitHub 与 Git 流程、Markdown 基础、讲义项目的 MyST/Sphinx 写法、写作与代码约定，以及常见问题。
 
@@ -6,8 +6,8 @@
 
 | 文件 | 说明 |
 | --- | --- |
-| `contributing-for-beginners.tex` | 正文，由 Quarkdown 版本转写为 LaTeX（`ctexart`） |
-| `contributing-for-beginners.pdf` | 编译好的 PDF |
+| `contributing-for-beginners.tex` | 正文 |
+| [`contributing-for-beginners.pdf`](./contributing-for-beginners.pdf) | 编译好的 PDF |
 | `img/` | 文中截图，文件名以章节序号开头 |
 
 ## 编译
@@ -19,7 +19,7 @@ xelatex contributing-for-beginners.tex
 xelatex contributing-for-beginners.tex
 ```
 
-需要 TeX Live（含 `ctex`、`tcolorbox`、`tikz`、`longtable` 等宏包）与中文字体 Noto Serif/Sans CJK SC。字体路径写在 `.tex` 文件顶部的 `\NotoDir`，默认指向 macOS 的 `~/Library/Fonts/`，换机器时按需修改。
+需要 TeX Live（含 `ctex`、`tcolorbox`、`tikz`、`longtable` 等宏包）与中文字体 Noto Serif/Sans CJK SC。
 
 ## 内容结构
 
